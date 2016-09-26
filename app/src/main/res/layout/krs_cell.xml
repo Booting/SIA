@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linParent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:weightSum="4"
+	android:paddingTop="10dp">
+	<TextView android:id="@+id/txtPosition"
+		android:layout_width="25dp"
+		android:layout_height="wrap_content"
+		android:textSize="13sp"
+		android:textColor="@android:color/white"/>
+	<TextView android:id="@+id/txtMataKuliah"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:textSize="13sp"
+		android:textColor="@android:color/white"
+		android:layout_weight="1.8"/>
+	<TextView android:id="@+id/txtSKS"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:textSize="13sp"
+		android:textColor="@android:color/white"
+		android:layout_weight="1"/>
+	<TextView android:id="@+id/txtKeterangan"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:textSize="13sp"
+		android:textColor="@android:color/white"
+		android:layout_weight="1.2"/>
+</LinearLayout>
